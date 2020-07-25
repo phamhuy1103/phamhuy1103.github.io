@@ -1,7 +1,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="icon" type="image/png" href="image/favicon.ico">
-		<title>For Love</title>	    
+		<title>Đồ án nhóm 27</title>	    
         <link type="text/css" rel="stylesheet" href="./renxi/default.css">
         <link type="text/css" rel="stylesheet" href="./renxi/scroll.css">
 		<script type="text/javascript" src="./renxi/jquery.min.js"></script>
@@ -18,20 +18,7 @@
 .STYLE1 {color: #666666}
 -->
         </style>
-        <script>
-      var openFile = function(event) {
-        var input = event.target;
-
-        var reader = new FileReader();
-        reader.onload = function(){
-          var text = reader.result;
-          var node = document.getElementById('output');
-          node.innerText = text;
-          console.log(reader.result.substring(0, 200));
-        };
-        reader.readAsText(input.files[0]);
-      };
-    </script>  
+        
 </head>
     
     <body scroll="no" style="overflow: hidden" bottom="50">
@@ -44,20 +31,14 @@
              <div id="wrap">
                 <div id="text">
 			        <div id="code">
-			      <font color="#3498db"><span class="say">Thảo Quyên,</span><br>
+			      <font color="#3498db"><span class="say">Nhóm 27,</span><br>
 						<span class="say"> </span><br>
-						<span class="say">Năm nay Quyên đã qua 19 .</span><br>
-						<span class="say">Thời gian thắm thoắt thoi đưa </span><br>
-						<span class="say">Đã làm t quên mất là</span><br>
-						<span class="say">Đứa mà t hay nói là less bây giờ đã trở thành </span><br>
-						<span class="say">Một thiếu nữ thực thụ </span><br>
-				     		<span class="say">Dù biết được món quà này không có ý nghĩa gì lắm </span><br>
-				      		<span class="say">Nhưng mong Quyên trân trọng nó </span><br>
-				      		<span class="say">Chúc Quyên thêm tuổi mới </span><br>
-				      		<span class="say">Càng ngày càng xinh đẹp </span><br>
-				     		<span class="say">Nợ môn thì đều đều </span><br>
-				      		<span class="say">Và nhất là đừng có người yêu nhé :(</span><br>
-						<span class="say">Cám ơn Quyên và chúc Quyên tất cả! &lt;3</span><br>
+						<span class="say">Cám ơn thầy và các bạn .</span><br>
+						<span class="say">Đã bỏ chút thời gian</span><br>
+						<span class="say">Để xem đồ án của chung em</span><br>
+						<span class="say">Chúc thầy và các bạn</span><br>
+						<span class="say">Một ngày tốt lành</span><br>
+						<span class="say">Cám ơn thầy và các bạn đã lắng nghe! &lt;3</span><br>
 						<span class="say">  </span><br>
                         <span class="say"><span class="space"></span> -- ❤ --</span></br><br><br><br>
 						<span class="say"><b></b></span><br>
@@ -68,9 +49,11 @@
                 </div>
                 <div id="clock-box">
                 
-                    <span class="STYLE1"></span><font color="#FF0000">Chúc mừng sinh nhật ❤ 
+                    <span class="STYLE1"></span><font color="#FF0000">Chọn File để share ❤ 
                     </font>
                     
+                    <input type='file' accept='text/plain' onchange='openFile(event)'><br>
+                    <div id='output'>
                         
                     </div>
                     <div id="fb-root"></div>
@@ -90,6 +73,7 @@
    
     <pre id="output"></pre> 
       
+  
     
     <script>
     </script>
